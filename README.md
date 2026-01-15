@@ -1,2 +1,27 @@
 # My-first-Simple-C-project
-understanding how it works
+#include <stdio.h>
+
+int main() {
+   int day;
+   printf("ENTER DAY NUMBER\n");
+   scanf("%d",&day);
+   
+   switch(day) {
+       case 1:printf("Monday");
+       break;
+        case 2:printf("Tuesday");
+       break;
+        case 3:printf("Wednesday");
+       break;
+        case 4:printf("Thursday");
+       break;
+        case 5:printf("Friday");
+        break;
+        case 6:printf("Sturday");
+       break;
+        case 7:printf("Sunday");
+       break;
+       default:printf("Wrong Day Number Input");
+   }
+    return 0;
+}
